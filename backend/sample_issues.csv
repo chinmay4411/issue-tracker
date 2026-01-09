@@ -1,0 +1,6 @@
+title,description,status,priority,assignee,reporter
+"Fix login button not responding","The login button on the main page is not responding to clicks","open","high","John Doe","Jane Smith"
+"Add dark mode support","Implement dark mode theme across the application","in_progress","medium","Alice Johnson","Bob Wilson"
+"Database connection timeout","Users experiencing timeout errors when connecting to database","open","critical","Mike Brown","Sarah Davis"
+"Update user profile page","Redesign the user profile page with new layout","open","low","John Doe","Admin"
+"API rate limiting","Implement rate limiting for API endpoints","resolved","high","Alice Johnson","Tech Lead"
