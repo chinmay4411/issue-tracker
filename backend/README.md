@@ -1,18 +1,4 @@
-# Issue Tracker API
 
-A simple and effective issue tracking API built with FastAPI, PostgreSQL, and SQLAlchemy.
-
-## Features
-
-- ✅ Full CRUD operations for issues
-- ✅ Advanced filtering (status, priority, assignee, search)
-- ✅ CSV import/export functionality
-- ✅ Bulk operations (update/delete multiple issues)
-- ✅ Analytics and reporting endpoints
-- ✅ Optimistic locking for concurrent updates
-- ✅ Cloud database support (Render, Neon, Supabase, etc.)
-
-## Quick Start
 
 ### 1. Install Dependencies
 
@@ -159,16 +145,5 @@ backend/
 └── README.md           # This file
 ```
 
-## Deployment
 
-### Deploy to Render
 
-1. Create a PostgreSQL database on Render
-2. Create a new Web Service on Render
-3. Set environment variable: `DATABASE_URL`
-4. Set build command: `pip install -r requirements.txt`
-5. Set start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-
-## License
-
-MIT
